@@ -1,0 +1,120 @@
+body{
+    position: relative;
+}
+
+.signupform{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.signupform .form-group{
+    display: flex;
+    flex-direction: column;
+}
+
+.signupform .form-group label{
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.signupform .form-group input{
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    padding-left: 10px;
+}
+
+.signupform button{
+    width: 90%;
+    justify-content: center;
+    padding: 6px;
+    font-size: 18px;
+    background-color: blue;
+    color: white;
+    margin-top: 6px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.signupform .error{
+    color: rgb(17, 0, 255);
+    margin: 5px;
+}
+
+h2{
+    margin: auto;
+    margin-top: 20px;
+    text-transform: uppercase;
+    width: 50%;
+    
+}
+
+.signupform h3{
+    font-weight: 500;
+    text-align: center;
+    margin: auto;
+    cursor: pointer;
+    margin-top: 10px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+
+
+.signupform h3:hover{
+    text-decoration: underline;
+    color: blue;
+    
+}
+
+@media (max-width:650px) {
+    .signupform{
+        width: 90%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    h2{
+        margin: auto;
+        margin-top: 20px;
+        text-transform: uppercase;
+        width: 90%;
+        text-align: center;
+        
+    }
+
+    .signupform .form-group input{
+        border-radius: 5px;
+        margin-bottom: 10px;
+        font-size: 18px;
+        padding-left: 10px;
+        width: 90%;
+        margin: auto;
+        
+    }
+
+    .signupform button{
+        width: 90%;
+        font-size: 18px;
+        background-color: blue;
+        color: white;
+        margin: 20px auto;
+        border-radius: 5px;
+    }
+
+    .signupform .form-group label{
+        
+        font-size: 18px;
+        width: 90%;
+        margin: 5px auto;
+
+    }
+
+    .signupform .error{
+        color: rgb(17, 0, 255);
+        margin: 5px auto;
+        width: 90%;
+    }
+    
+}

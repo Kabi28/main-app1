@@ -1,0 +1,113 @@
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    align-items: center;
+    background-color: #393838;
+}
+.search{
+    width: 50%;
+    display: flex;
+}
+input{
+    width: 90%;
+    height: 40px;
+    border-start-start-radius: 5px ;
+    border-end-start-radius: 5px ;
+    padding: 10px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+}
+.search img{
+    height: 40px;
+    width: 45px;
+    border: 2px solid;
+    cursor: pointer;
+    background-color: orange;
+    border: none;
+    padding: 4px;
+    border-start-end-radius: 5px;
+    border-end-end-radius: 5px;
+    
+    
+}
+.category label{
+    margin-right: 5px;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+.user{
+    display: flex;
+    height: 40px;
+    width: 40px;
+    color: white;
+    background-color: white;
+    border-radius: 60%;
+    text-align: center;
+    justify-content: center;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.actions{
+    align-items: center;
+    display: flex;
+    color: white;
+    
+}
+.actions a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 0 5px;
+}
+.logo{
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+.cartlogo{
+    color: white;
+    position: relative;
+    cursor: pointer;
+}
+
+.cartlogo span{
+    position: absolute;
+    display: flex;
+    top: 0;
+    right: 0;
+    background-color: red;
+    padding: 3px;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width:650px) {
+    .logout-btn{
+        display: none;
+    }
+    input{
+        width: 70%;
+    }
+
+    nav{
+        display: flex;
+        flex: 1;
+        padding: 15px 5px;
+    }
+    .search{
+        justify-content: center;
+    }
+    .category label{
+        display: none;
+    }
+}

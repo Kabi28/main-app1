@@ -1,0 +1,59 @@
+table{
+    width: 100%;
+}
+.cart-wrap{
+    background-color: grey;
+}
+.cart-wrap table{
+    width: 100%;
+
+}
+.cartcontainer td{
+    padding: 10px;
+    
+}
+.cartcontainer td h2{
+    width: auto;
+}
+
+.cartcontainer img{
+    height: 60px;
+    width:100px;
+    border-radius: 5px;
+}
+.cartcontainer .remove-btn{
+    background-color: red;
+    color: black;
+    border-radius: 5px;
+    border: none;
+    padding: 3px 5px;
+}
+
+.actions button{
+    cursor: pointer;
+    margin: 2px;
+    
+}
+
+.cartcontainer {
+    border: 2px solid;
+}
+.emptycart{
+    text-align: center;
+    background-color: rgb(224, 97, 75);
+    font-size: 20px;
+    height: 100px;
+}
+
+thead th{
+    font-size: 18px;
+    text-transform: capitalize;
+    height: 50px;
+}
+
+@media (max-width:650px) {
+    .cartcontainer h2{
+        font-size: 16px;
+        text-transform: capitalize;
+    }
+}
