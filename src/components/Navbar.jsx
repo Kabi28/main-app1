@@ -22,11 +22,11 @@ const Navbar = ()=>{
         <>
         <nav>
             <div className="logo">
-                <img onClick={()=>navigate('/')} src="./src/assets/react.svg" alt="Logo" />
+                <img onClick={()=>navigate('/')} src="./public/react.svg" alt="Logo" />
             </div>
             <div className="search">
                 <input type="text" placeholder='Search Products' />
-                <img src="./src/assets/search.svg" alt="Search" />
+                <img src="./public/search.svg" alt="Search" />
             </div>
             <div className="category" style={{color:'white',padding:'2px'}}>
                 <label>Category</label>
@@ -37,10 +37,10 @@ const Navbar = ()=>{
                 </select>
             </div>
             <div className="cartlogo">
-                <img onClick={()=>navigate('/cart')} src="./src/assets/products/cart_icon.png" alt="cart" /><span>{cartVal.length}</span>
+                <img onClick={()=>navigate('/cart')} src="../src/assets/products/cart_icon.png" alt="cart" /><span>{cartVal.length}</span>
             </div>
             <div className="actions">
-                <img className='user' src="./src/assets/user.svg" alt="" onClick={()=>navigate('/signup')} />
+                <img className='user' src="./public/user.svg" alt="" onClick={()=>navigate('/signup')} />
                 <a className='logout-btn'>Logout</a>
                 
             </div>
