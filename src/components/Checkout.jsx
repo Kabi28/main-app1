@@ -1,5 +1,5 @@
 import React from 'react'
-import '../css/CheckOut.css'
+import '../css/Checkout.css'
 import { useSelector } from 'react-redux'
 
 const Checkout = ({total}) => {
