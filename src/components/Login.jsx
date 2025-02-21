@@ -1,6 +1,6 @@
 import React from 'react'
 import { useForm } from 'react-hook-form'
-import '../css/SignUp.css'
+import '../css/Signup.css'
 import { useNavigate } from 'react-router-dom'
 
 const Login = () => {
